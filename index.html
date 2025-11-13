@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cloud Commerce (Demo)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cloud Commerce — Demo</h1>
+  </header>
+
+  <main class="container">
+    <section id="products" class="grid"></section>
+
+    <aside class="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div class="cart-total">Total: ₹<span id="cart-total">0.00</span></div>
+      <button id="checkout-btn">Checkout (Pay)</button>
+      <div id="checkout-result"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Demo Cloud Commerce • Backend: Flask • DB: SQLite</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
